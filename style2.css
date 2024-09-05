@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif;
+    position: relative; /* Ensure proper positioning of children */
+}
+
+#story-container {
+    position: relative; /* Ensure the container can position child elements absolutely */
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide overflow */
+    background-image: url(/background1.png); /* Replace with your image path */
+    background-size: cover; /* Cover the container */
+    background-position: center; /* Center the background image */
+    cursor: pointer;
+}
+
+.sentence {
+    position: absolute;
+    font-size: 24px;
+    margin: 5px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    color: whitesmoke;
+    text-shadow: 2px 2px 0 black, 
+                 -2px -2px 0 black,  
+                 2px -2px 0 black,  
+                 -2px 2px 0 black; /* Creates a black outline effect */
+}
+
+#sentence1 {
+    top: 10%;
+    left: 10%;
+}
+
+#sentence2 {
+    top: 20%;
+    left: 30%;
+}
+
+#sentence3 {
+    top: 40%;
+    left: 50%;
+}
+
+#sentence4 {
+    top: 60%;
+    left: 70%;
+}
+
+#sentence5 {
+    top: 80%;
+    left: 90%;
+}
