@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     const backgroundImages = [
-        '/img/cage.jpg',
-        '/img/feast.jpg',
-        '/img/slept.jpg',
-        '/img/blanket.webp',
-        '/img/boil.webp',
+        'img/cage.jpg',
+        'img/feast.jpg',
+        'img/slept.jpg',
+        'img/blanket.webp',
+        'img/boil.webp',
     ];
 
     const container = document.getElementById('story-container');
